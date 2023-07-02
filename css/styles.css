@@ -1,0 +1,152 @@
+/* Kabelo Motloung u22566954 */
+body {
+  background-color: white;
+  color: black;
+  margin: 0;
+  font-size: 15px;
+  font-family: Verdana, Tahoma, sans-serif;
+  padding: 10px;
+}
+nav {
+  background-color: rgba(147, 147, 147, 0.8);
+  /* color: #fff; */
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-right: 70px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  /* color: #fff; */
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+.launch {
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+.launch button {
+  background-color: rgb(37, 167, 247); /* Green */
+  border: none;
+  box-shadow: 2px 2px rgb(149, 185, 207);
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+#searchbar input {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 50%;
+  text-align: center;
+}
+#searchbar button:hover {
+  font-size: 15px;
+}
+
+.car img {
+  width: 350px;
+}
+.car {
+  margin: 20px;
+  border: 2px solid rgb(178, 171, 171);
+  box-shadow: none;
+  color: rgb(62, 5, 115);
+  text-align: center;
+}
+.logo {
+  margin: 30px;
+  text-align: center;
+}
+.brandSection {
+  color: rgb(37, 167, 247);
+  display: flex;
+  flex-wrap: wrap;
+}
+.logo img {
+  width: 250px;
+}
+
+a button:hover {
+  font-size: 15px;
+}
+.compare {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.UnderConstruction {
+  color: black;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  background-color: darkcyan;
+}
+form {
+  margin-left: 10px;
+}
+h2 {
+  color: darkslategrey;
+}
+
+.carsSection {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form {
+  background-color: rgba(147, 147, 147, 0.8);
+  color: rgb(62, 5, 115);
+  padding: 20px;
+  border-radius: 10px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form input[type="text"],
+.form input[type="email"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.form input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+.h22 {
+  text-align: center;
+}
